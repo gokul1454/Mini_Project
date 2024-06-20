@@ -1,0 +1,198 @@
+/* src/styles/home.css */
+.container-fluid {
+    padding: 0;
+}
+
+.bg-danger {
+    background: rgb(22, 22, 22);
+    background: linear-gradient(0deg, rgba(118, 178, 237, 0.981) 11%, rgba(241, 247, 243, 1) 100%);
+    background-image: url(../assets/image22.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-secondary{
+    background-image: url(../assets/desktop-wallpaper-gradient-background-background-plain-red.jpg);
+    background-size:cover ;
+}
+
+/* .bg-danger {
+    background-image: url(../assets/img1.webp);
+    width: 100%;
+    height: auto;
+    animation: change 10s infinite linear;
+
+}
+@keyframes change {
+    0%{
+        background-image: url(../assets/img1.webp);
+    }
+    20%{
+        background-image: url(../assets/img2.webp);
+    }
+    40%{
+        background-image: url(../assets/img3.jpg);
+    }
+    60%{
+        background-image: url(../assets/img4.jpg);
+    }
+    80%{
+        background-image: url(../assets/img5.jpg);
+    }
+    100%{
+        background-image: url(../assets/img6.jpg);
+    }
+    
+} */
+.heading {
+    font-family: Elephant;
+    color: rgb(57, 3, 3);
+
+}
+
+.headingLine2 {
+    font-size: 50px;
+    background-image: linear-gradient(90deg, rgb(94, 212, 235) 0%, rgb(87, 11, 10) 56%, rgb(240, 103, 6) 100%);
+    color: transparent;
+    font-family: Forte;
+    font-size: 10vmin;
+    background: #EDDDD4;
+
+    -webkit-background-clip: text;
+
+    animation: move 1s infinite;
+}
+
+@keyframes move {
+    50% {
+        background-image: linear-gradient(262deg, rgb(230, 190, 13) 0%, rgba(255, 145, 144, 1) 56%, rgb(237, 106, 12) 100%);
+    }
+}
+
+#float-img {
+    position: relative;
+    bottom: 50px;
+    height: 500px;
+    z-index: 1;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+@media screen and (max-width: 480px) {
+    #float-img {
+        height: 200px;
+    }
+}
+.img-fluid1{
+    width: 400px;
+    height: 600px;
+}
+.img-fuild2{
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+}
+.welcome{
+    background-image: url(../assets/img7.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#eeee{
+    width: 100%;
+    height: 700px;
+}
+.work{
+    justify-content: center;
+    align-items: center;
+    padding: 200px 30px 100px 100px;
+}
+@media screen and (max-width:720px) {
+    .work{
+        padding:30px;
+    }
+}
+.welocome2{
+    background-image: url(../assets/image25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img-float{
+    position: relative;
+    bottom: 100px;
+}
+#imgg{
+    width: 300px;
+    height: 500px;
+}
+.img_bar {
+    margin-bottom: 30px;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: 400px;
+  }
+  .icons{
+    position: relative;
+    color: rgb(15, 15, 15);
+    font-size: 30px;
+    left: 230px;
+    top: 60px;
+    visibility: hidden;
+    opacity: 0;
+}
+.icons :hover{
+    cursor: pointer;
+    background-color: rgb(248, 249, 249);
+    padding: 10px;
+    border-radius: 50%;
+}
+.img_bar:hover .icons{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.secure:hover {
+    background-color: rgb(82, 202, 241);
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    color: #22120a;
+    font-variant: small-caps;
+    /* border-radius: 30px; */
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(55, 4, 241, 0.201); 
+}
+/* .order{
+    border: 2px solid rgb(154, 241, 104);
+} */
+.order:hover {
+    background-color: rgb(154, 241, 104);
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    color: #25211f;
+    font-variant: small-caps;
+    /* border-radius: 30px; */
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(159, 237, 3, 0.744);
+
+     
+}
+.easy:hover {
+    background-color: rgb(241, 183, 82);
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    color: #25211f;
+    font-variant: small-caps;
+    /* border-radius: 30px; */
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.free:hover {
+    background-color: rgb(241, 82, 90);
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    color: #25211f;
+    font-variant: small-caps;
+    /* border-radius: 30px; */
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
